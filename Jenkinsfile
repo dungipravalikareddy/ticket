@@ -5,7 +5,7 @@ stage('SCM Checkout'){
 }
 stage('Build Project'){
 
-        echo "building the application"
+        echo "building the 1application"
       
 }
 }
