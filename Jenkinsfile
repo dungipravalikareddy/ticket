@@ -3,8 +3,8 @@ stage('SCM Checkout'){
 git credentials: 'pravalikareddy6', url: "https://github.com/dungipravalikareddy/ticket.git"
 }
 stage('Build Project'){
-steps {
+
         echo "building the application"
-      }
+      
 }
 }
