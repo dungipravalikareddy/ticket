@@ -1,6 +1,6 @@
 node{
 stage('SCM Checkout'){
-git credentials: 'pravalikareddy6', url: "https://github.com/dungipravalikareddy/ticket.git"
+git credentials: 'pravalikareddy6', url: 'https://github.com/dungipravalikareddy/ticket.git'
 }
 stage('Build Project'){
 
